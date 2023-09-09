@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nixoskodi" name="NixOS HTPC Repo" version="1.1.2" provider-name="ChiroBender">
+<addon id="repository.nixoskodi" name="NixOS HTPC Repo" version="1.1.3" provider-name="ChiroBender">
     <extension point="xbmc.addon.repository" name="NixOS HTPC Repo">
         <dir>
             <info compressed="false">https://chiropracticbender.github.io/repository.nixoskodi/repo/zips/addons.xml</info>
             <checksum>https://chiropracticbender.github.io/repository.nixoskodi/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://chiropracticbender.github.io/repository.nixoskodi/repo/zips/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
