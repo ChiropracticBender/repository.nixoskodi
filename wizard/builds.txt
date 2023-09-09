@@ -1,0 +1,18 @@
+id="plugin.program.digiwizard"
+version="1.0.0"
+zip="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/wizard/zips/"
+
+name="PCBuild"
+version="1.8"
+url="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/wizard/zips/PCBuild.zip"
+minor="http://"
+gui="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/wizard/zips/PCBuild_guisettings.zip"
+kodi="20.2"
+theme="http://"
+icon="http://"
+fanart="http://"
+preview="https://"
+adult="no"
+info="http://"
+description="Test Build"
+

@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.digiwizard" name="[COLOR limegreen]Digi[/COLOR]Wizard" version="3.0.23" provider-name="drinfernoo, slamious">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR limegreen]Digi[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR limegreen]Digi[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <news>
+3.0.22
+ - icon change
+3.0.21
+ - notification txt setup and testing
+3.0.20
+ - turned on webserver and added http://linkstation.local:81/builds.txt
+3.0.17
+ - added top to build.txt
+3.0.16
+ - ftp server fails to communicate. build.txt under text folder added to communicate with ftp server manually. 
+3.0.15
+ - ftp address changed for builds.txt
+3.0.14
+ - deleted reources build files for uservar to communicate with server
+3.0.13
+ - builds.txt file readded and updated with server txt.
+3.0.12
+ - deleted local build.txt file
+3.0.11
+ - uservar updated with Digi
+3.0.10
+ - uservar updates 
+3.0.6
+ - fix build url file to communicate to ftp server.
+3.0.5
+ - changed wizard name
+3.0.4
+ - updated python version
+3.0.3
+ - plugin renamed to plugin.program.dcf
+3.0.2
+ - Code change from github to ftp source removed
+3.0.1
+ - FTP Access to local server
+3.0.0
+ - converted code for internal use
+2.0.7
+ - Fix Error when using default log settings
+2.0.6
+ - Fix regex for formatting tags
+ - Fix theme selection after build install
+ - Fix downloading into invalid path
+2.0.5
+ - Add Enable All Add-ons after Build Install
+2.0.4
+ - Fix leftover broken dialogs
+2.0.3
+ - Don't show previous version builds in Matrix
+2.0.2
+ - Replace remaining occurences of LOGNOTICE
+2.0.1
+ - Add attribution to @slamious
+2.0.0
+ - Initial Matrix support
+1.4.5
+ - Fix bugs with unintended files being cleared`
+1.4.4
+ - Transfer ownership
+1.4.3
+ - Fix missing artwork on items (thanks @xulek)
+1.4.2
+ - A few bug fixes
+1.4.1
+ - Fix crash on fresh installs
+1.4.0
+ - Fix APK Installer
+ - Convert official APK downloader to use official script
+ - Add scrollbar to Save Data dialog
+ - Fix skin path in build info
+1.3.7
+ - Fix import lock error
+1.3.6
+ - Fix notifications
+ - Cleanup log files
+1.3.5
+ - Add Fen
+ - Add Shadow
+ - Fix restoring saved data every boot
+1.3.4
+ - Fix bad indent
+1.3.3
+ - Fix Unicode characters in notification window
+1.3.2
+ - Fix build restore
+1.3.1
+ - Fix "Keep Login Info" menu        
+1.3.0
+ - Fix formatting of saved restore times
+ - Fix local build zip being deleted on restore
+ - Add YouTube API saving
+ - Remove broken context menus
+ - Fix repeating dialogs from shortcuts/favorites
+ - Remove "Normal Install" option
+ - Add "Logging Tools" menu
+ - Add option to save guisettings.xml
+ - Add TMDbHelper Fanart.tv saving
+ - More fixes for OS X
+ - Fix Seren Fanart.tv saving
+1.2.9
+ - Fix NuMb3r5 cache clearing
+ - Fix hang during repo force check
+ - Fix logins being restored every startup
+ - Fix some file permission errors
+ - Fix OS X backup errors
+1.2.8
+ - Add Gaia PM OAuth
+ - Fix binary add-on restoration
+ - Fix some issues with old settings
+ - Fix timing on many startup tasks
+1.2.7
+ - Add TheMovieDb Helper
+1.2.6
+ - Fix Seren PM OAuth    
+1.2.5
+ - Fix typo in debridit.py
+1.2.4
+ - Cover more edge cases during binary detection
+1.2.3
+ - Fix notification ID bug
+1.2.2
+ - Add Seren PM OAuth
+ - Add AllDebrid spport for Gaia, Seren, ResolveURL, and URLResolver
+1.2.1
+ - General bug fixes
+1.2.0
+ - Silence save data notifications on startup
+ - Fix Addon Installer menu
+ - Convert addons.txt to JSON format
+1.1.1
+ - Fix error on advancedsettings categories
+1.1.0
+ - Add back advancedsettings area under System Tweaks/Fixes
+ - Rudimentary version of advancedsettings editor. Can currently only handle editing pre-existing tags under 'cache' and 'network'.
+ - Convert advanced.txt to JSON format
+ - Add "built-in" advancedsettings.xml presets
+1.0.3
+ - Update artwork
+ - Fix rare issues with URLs not working
+ - Fix repetitive build prompt (again)
+ - Fix builds downloading twice
+ - Fix title coloring on notifications
+ - Fix auto repo install
+ - Fix first run settings not being respected
+1.0.2
+ - Fix crash in login menu
+ - Fix auto install repo
+1.0.1
+ - Fix double startup
+ - Fix repetitive build prompt
+ - Fix main menu not opening on Krypton
+ - Fix notification timeout
+ - Fix crash in Trakt menu
+1.0.0
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon><addon id="plugin.program.osmcsteamlink" name="Launch Steamlink" version="0.0.1" provider-name="Grim Lokason">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB"> Launching Steamlink from OSMC</summary>
+		<description lang="en_GB" />
+		<language />
+		<platform>linux</platform>
+		<source>https://gitlab.com/grimlokason/osmc-steamlink/</source>
+	</extension>
+</addon><addon id="plugin.video.sling" version="2023.05.01.1" name="Sling" provider-name="d21spike, eracknaphobia">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper" />
+        <import addon="script.module.requests_oauthlib" />
+        <import addon="script.module.xmltodict" />
+        <import addon="script.module.pytz" />
+        <import addon="script.module.kodi-six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <description lang="en_GB">A database driven SlingTV Kodi add-on. Providing many of the offered features/services you've come to expect from the official SlingTV interface. Choose anything from Live Channels, to On Demand, to binge watching shows. It's all there.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <source>https://github.com/d21spike/plugin.video.sling</source>
+        <website>https://www.Slingtv.com</website>
+        <news> </news>
+        <forum>https://forum.kodi.tv/showthread.php?tid=351048</forum>
+        <assets>
+            <icon>resources/images/icon.png</icon>
+            <fanart>resources/images/fanart.png</fanart>
+            <screenshot>resources/images/screenshot01.png</screenshot>
+            <screenshot>resources/images/screenshot02.png</screenshot>
+            <screenshot>resources/images/screenshot03.png</screenshot>
+            <screenshot>resources/images/screenshot04.png</screenshot>
+            <screenshot>resources/images/screenshot05.png</screenshot>
+        </assets>
+    </extension>
+</addon><addon id="repository.nixoskodi" name="NixOS HTPC Repo" version="1.1.0" provider-name="ChiroBender">
+    <extension point="xbmc.addon.repository" name="NixOS HTPC Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/ChiropracticBender/repository/nixoskodi/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/ChiropracticBender/repository/nixoskodi/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/ChiropracticBender/repository/nixoskodi/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>NixOS HTPC Project Repo</summary>
+        <description>This repo is for NixOS HTPC Project</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="service.vpn.manager" name="VPN Manager for OpenVPN" version="7.0.4" provider-name="Zomboided">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.python.module" library="libs" />
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <news />
+    <platform>all</platform>
+    <summary lang="en">Configure and manage VPN connections using openVPN</summary>
+    <description lang="en">Establish a connection to a VPN service and automatically switch VPN locations based on the add-on being used.</description>
+    <license>GPL-2.0-or-later</license>
+    <forum>https://forum.libreelec.tv/thread/5032-vpn-manager-for-openvpn/</forum>
+    <source>https://github.com/Zomboided/service.vpn.manager</source>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart />
+        <banner />
+        <clearlogo />
+        <screenshot />
+    </assets>
+  </extension>
+</addon><addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.0">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="1.0.0" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
+    </requires>
+    <extension debugging="false" effectslowdown="1.00" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Clean, clear, simple, modern.</summary>
+        <summary lang="it_IT">Pulita, chiara, semplice, moderna.</summary>
+        <disclaimer lang="en_GB">Mouse and Touch device not supported</disclaimer>
+        <disclaimer lang="it_IT">Mouse e dispositivi touch non sono supportati</disclaimer>
+        <description lang="en_GB">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="it_IT">Eminence è una skin che mira ad essere pulita, chiara, semplice e moderna.</description>
+        <license>CC-NC-SA 3.0</license>
+        <website />
+        <email />
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>extras/viewthumbs/50.jpg</screenshot>
+            <screenshot>extras/viewthumbs/51.jpg</screenshot>
+            <screenshot>extras/viewthumbs/52.jpg</screenshot>
+            <screenshot>extras/viewthumbs/53.jpg</screenshot>
+            <screenshot>extras/viewthumbs/54.jpg</screenshot>
+            <screenshot>extras/viewthumbs/55.jpg</screenshot>
+            <screenshot>extras/viewthumbs/56.jpg</screenshot>
+            <screenshot>extras/viewthumbs/57.jpg</screenshot>
+            <screenshot>extras/viewthumbs/58.jpg</screenshot>
+            <screenshot>extras/viewthumbs/59.jpg</screenshot>
+        </assets>
+    </extension>
+</addon></addons>
