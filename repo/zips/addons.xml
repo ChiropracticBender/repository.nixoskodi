@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.program.digiwizard" name="[COLOR limegreen]Digi[/COLOR]Wizard" version="3.0.23" provider-name="drinfernoo, slamious">
+<addons><addon id="plugin.program.digiwizard" name="[COLOR limegreen]Digi[/COLOR]Wizard" version="3.0.24" provider-name="drinfernoo, slamious">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -20,6 +20,9 @@
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <news>
+3.0.23
+ - setting up Github with NixOS HTPC Project
+ - changed user aruments for build.txt
 3.0.22
  - icon change
 3.0.21

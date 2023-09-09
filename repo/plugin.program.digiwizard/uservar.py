@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR limegreen][B]Digi[/B][/COLOR]Wizard'
 BUILDERNAME = 'buildwizard'
 EXCLUDES = [ADDON_ID, 'repository.dcf']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'http://linkstation.local:81/builds.txt'
+BUILDFILE = 'https://chiropracticbender.github.io/repository.nixoskodi/wizard/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 1
