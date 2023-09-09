@@ -4,9 +4,9 @@ zip="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/w
 
 name="PCBuild"
 version="1.8"
-url="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/wizard/zips/PCBuild.zip"
+url="https://chiropracticbender.github.io/repository.nixoskodi/wizard/zips/PCBuild.zip"
 minor="http://"
-gui="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/wizard/zips/PCBuild_guisettings.zip"
+gui="https://chiropracticbender.github.io/repository.nixoskodi/wizard/zips/PCBuild_guisettings.zip"
 kodi="20.2"
 theme="http://"
 icon="http://"
