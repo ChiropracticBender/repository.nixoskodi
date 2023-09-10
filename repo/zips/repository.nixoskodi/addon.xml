@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nixoskodi" name="NixOS HTPC Repo" version="1.1.7" provider-name="ChiroBender">
+<addon id="repository.nixoskodi" name="NixOS HTPC Repo" version="1.1.8" provider-name="ChiroBender">
     <extension point="xbmc.addon.repository" name="NixOS HTPC Repo">
         <dir>
-            <info compressed="false">https://chiropracticbender.github.io/repository.nixoskodi/repo/zips/addons.xml</info>
-            <checksum>https://chiropracticbender.github.io/repository.nixoskodi/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://chiropracticbender.github.io/repository.nixoskodi/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/chiropracticbender/repository.nixoskodi/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/chiropracticbender/repository.nixoskodi/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/chiropracticbender/repository.nixoskodi/main/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -17,6 +17,8 @@
             <fanart>fanart.jpg</fanart>
         </assets>
         <news> 
+        1.1.8
+        - Moved to GitHub
         1.1.7
         - testing updater
         1.1.6
