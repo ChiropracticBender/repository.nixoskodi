@@ -86,7 +86,7 @@
     <description lang="ru_RU">Протокол обмена сообщениями в реальном времени (The Real Time Messaging Protocol - RTMP) - это запатентованный сетевой протокол, разработанный компанией Adobe Inc. для передачи аудио, видео и других данных через Интернет с медиа-сервера на флеш-плеер.[CR][CR]Это приложение реализует поддержку потоковой передачи RTMP для Kodi и установленных дополнений.</description>
     <description lang="zh_CN">实时消息协议（RTMP）是 Adobe Inc. 开发的一种专有网络协议，用于通过互联网将音频、视频和其他数据从媒体服务器传输到 flash 播放器。[CR][CR]此插件实现对 Kodi 和已安装插件的 RTMP 流支持。</description>
   </extension>
-</addon><addon id="plugin.program.digiwizard" name="[COLOR limegreen]Digi[/COLOR]Wizard" version="3.0.27" provider-name="ChiropracticBender">
+</addon><addon id="plugin.program.digiwizard" name="[COLOR limegreen]Digi[/COLOR]Wizard" version="3.0.28" provider-name="ChiropracticBender">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -107,6 +107,8 @@
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <news>
+3.0.28
+ - Contact information changed.
 3.0.27
  - Notification URL Update
 3.0.26
