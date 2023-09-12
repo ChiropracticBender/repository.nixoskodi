@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR limegreen][B]Digi[/B][/COLOR]Wizard'
 BUILDERNAME = 'buildwizard'
 EXCLUDES = [ADDON_ID, 'repository.dcf']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'https://chiropracticbender.github.io/repository.nixoskodi/wizard/builds.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/master/wizard/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 1
@@ -109,7 +109,7 @@ REPOZIPURL = 'https://'
 # Enable Notification screen Yes or No
 ENABLE = 'Yes'
 # Url to notification file
-NOTIFICATION = 'https://chiropracticbender.github.io/repository.nixoskodi/wizard/notify.txt'
+NOTIFICATION = 'https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/master/wizard/notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE = 'Text'
 # Font size of header
