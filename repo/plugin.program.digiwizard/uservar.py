@@ -77,7 +77,7 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for trying NixOS HTPC.\n\nNixOS HTPC OS issues can be reported at https://github.com/chiropracticbender/nixos-htpc\n\n Kodi Issues can be reported at https://github.com/chiropracticbender/repository.nixoskodi'
+CONTACT = 'Thank you for trying NixOS HTPC.\n\nNixOS HTPC OS issues can be reported at https://github.com/chiropracticbender/nixos-htpc\n\nKodi Issues can be reported at https://github.com/chiropracticbender/repository.nixoskodi'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
