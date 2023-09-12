@@ -1,7 +1,3 @@
-This font is freeware for personal use. For commercial use, please contact us at info@onebyfourstudio.com
-
-Feel free to distribute this font, but please don't distribute an edited version of this font. Do not rename this font. And definitely don't sell this font!
-
-Thank you,
-http://onebyfourstudio.com
-Natasha Maria Fernandez-Fountain, One by Four © 2010
+version https://git-lfs.github.com/spec/v1
+oid sha256:b94344a7967247c65d5d0268251a1074158547f7a323cf27a6b2d5c0e8b29af9
+size 355

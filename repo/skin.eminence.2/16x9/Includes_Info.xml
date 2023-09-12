@@ -1,15 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<includes>
-    <include name="Info_DetailsGrouplist">
-        <top>bigpad</top>
-        <width>100%</width>
-        <height>336</height>
-        <itemgap>12</itemgap>
-        <orientation>vertical</orientation>
-        <aligny>center</aligny>
-        <usecontrolcoords>true</usecontrolcoords>
-    </include>
-
-
-
-</includes>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad8324d4a381eae81af65b0fd3db6ac2d747bd80a0b5e55a2039b09f9d9f3c02
+size 361

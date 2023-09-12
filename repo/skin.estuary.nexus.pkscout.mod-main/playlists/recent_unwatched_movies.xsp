@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<smartplaylist type="movies">
-    <name>Recent Unwatched Movies</name>
-    <match>all</match>
-    <rule field="dateadded" operator="after">
-        <value>2012-01-01</value>
-    </rule>
-    <rule field="playcount" operator="lessthan">
-        <value>1</value>
-    </rule>
-    <limit>15</limit>
-    <order direction="descending">dateadded</order>
-</smartplaylist>
+version https://git-lfs.github.com/spec/v1
+oid sha256:80eae1b1ccff9bd3bb1047fe091a2d7f56d539b55bf30cb68377427744527493
+size 420

@@ -1,16 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<window>
-	<controls>
-        <control type="multiimage">
-            <posy>42</posy>
-            <posx>62</posx>
-            <width>64</width>
-            <height>64</height>
-            <aspectratio>keep</aspectratio>
-            <imagepath>$VAR[Defs_SpinnerTexture]</imagepath>
-            <timeperimage>75</timeperimage>
-            <fadetime>0</fadetime>
-            <colordiffuse>HomeBarFG</colordiffuse>
-        </control>
-	</controls>
-</window>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d50108e0d913d04bcb5490189f906b4f466fca342981340ef0cea084dc523513
+size 490

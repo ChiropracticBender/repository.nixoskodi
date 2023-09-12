@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<smartplaylist type="movies">
-    <name>Random movies</name>
-    <match>all</match>
-    <limit>15</limit>
-    <order direction="descending">random</order>
-</smartplaylist>
+version https://git-lfs.github.com/spec/v1
+oid sha256:efae3843099e5342cd14fe0b51067b0bce66a9872426b0a85610b0e0e23860b4
+size 229

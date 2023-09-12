@@ -1,16 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.osmcsteamlink" name="Launch Steamlink" version="0.0.1" provider-name="Grim Lokason">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB"> Launching Steamlink from OSMC</summary>
-		<description lang="en_GB"></description>
-		<language></language>
-		<platform>linux</platform>
-		<source>https://gitlab.com/grimlokason/osmc-steamlink/</source>
-	</extension>
-</addon>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ba3814c12f47d8d1737c6c37c06ad083c2fd613f41af3f49314980db48baa64
+size 639

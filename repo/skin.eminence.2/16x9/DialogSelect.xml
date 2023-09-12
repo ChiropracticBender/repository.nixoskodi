@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<window>
-    <defaultcontrol always="true">3</defaultcontrol>
-    <controls>
-        <include>GlobalOverlay</include>
-        <include  condition="![Window.IsActive(gamestretchmode) | Window.IsActive(gamevideofilter) | Window.IsActive(gamevideorotation)]">Dialog_Select</include>
-        <include  condition="Window.IsActive(gamestretchmode) | Window.IsActive(gamevideofilter) | Window.IsActive(gamevideorotation)">Dialog_Select_Game</include>
-
-        <!-- Hidden Label -->
-        <control type="label" id="1"><visible>false</visible><font /></control>
-    </controls>
-
-</window>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0508200d7098d91d40d0bd44fe2cc8d69584bf8e77d578966169e7a11177a491
+size 621

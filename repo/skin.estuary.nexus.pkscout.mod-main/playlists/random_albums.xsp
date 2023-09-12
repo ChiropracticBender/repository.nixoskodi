@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<smartplaylist type="albums">
-    <name>Random albums</name>
-    <match>all</match>
-    <limit>15</limit>
-    <order direction="ascending">random</order>
-</smartplaylist>
+version https://git-lfs.github.com/spec/v1
+oid sha256:41481ffaebe3d4afff76914b16cb3cff049d0edfc969c4423b210272b9895864
+size 228

@@ -1,18 +1,3 @@
-id="plugin.program.digiwizard"
-version="1.0.0"
-zip="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/master/wizard/zips/"
-
-name="PCBuild"
-version="1.10"
-url="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/master/wizard/zips/PCBuild.zip"
-minor="http://"
-gui="https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/master/wizard/zips/PCBuild_guisettings.zip"
-kodi="20.1"
-theme="http://"
-icon="http://"
-fanart="http://"
-preview="https://"
-adult="no"
-info="http://"
-description="Test Build"
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:13562a5f05efd4e1b7229065a8531e241b854c18a7652eb53882957ff81ab07b
+size 577

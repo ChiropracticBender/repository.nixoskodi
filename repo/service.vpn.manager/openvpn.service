@@ -1,12 +1,3 @@
-[Unit]
-Description=OpenVPN Autorun Service
-Requires=network-online.service
-After=network-online.service
-
-[Service]
-Type=forking
-ExecStart=/usr/sbin/openvpn --daemon --config /storage/.config/openvpn.config
-Restart=no
-
-[Install]
-WantedBy=kodi.target
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba22bf3dc743db000a5a95b7f617c3ef6e7725cab02f783d53864d126f764d07
+size 261
