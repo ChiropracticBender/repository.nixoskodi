@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e08e90e74dfb603df3e9da1b53ca871faaeb5d367391d07897cc228ad9d48459
-size 213
+<window>
+	<controls>
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>bg_screen.jpg</texture>
+		</control>
+	</controls>
+</window>

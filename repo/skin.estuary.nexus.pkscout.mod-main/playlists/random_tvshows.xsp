@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:547010ae21ab8746afb1665d2151041123b83fb21ae399d52e756c704c5f65a7
-size 315
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="tvshows">
+    <name>TV shows</name>
+    <match>all</match>
+    <rule field="numepisodes" operator="greaterthan">
+        <value>0</value>
+    </rule>
+    <limit>15</limit>
+    <order direction="ascending">random</order>
+</smartplaylist>

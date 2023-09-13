@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ce6de8ba9af283936deca50a2235ab8704642ffd8eb2e18443cf35d1180d8e6
-size 477
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">999</defaultcontrol>
+	<controls>
+		<control type="button" id="999">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texturefocus />
+			<texturenofocus />
+			<onright>StepForward</onright>
+			<onleft>StepBack</onleft>
+			<onup>ChapterOrBigStepForward</onup>
+			<ondown>ChapterOrBigStepBack</ondown>
+			<onclick>OSD</onclick>
+		</control>
+	</controls>
+</window>

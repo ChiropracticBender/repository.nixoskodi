@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:302156164608eb1f6a2f0686cd295fc7995853a2e520a6e32a63b8faac965366
-size 171
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<include>LoadDefaultConfig</include>
+	<onload>ReplaceWindow($INFO[System.StartupWindow])</onload>
+	<controls />
+</window>

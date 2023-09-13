@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b68f505eeea8705eaf7b77863aa8e74850244b5327780569cc4e40b0a37ed44
-size 841
+{
+    "presets": [
+        {
+            "name": "Enable All Artwork",
+            "section": false,
+            "url": "https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/presets/artwork_preset.xml",
+            "icon": "",
+            "fanart": "",
+            "description": "This preset adds all of the available arttypes, to be used with library scrapers which collect their own artwork. Only has any effect on Kodi 18+."
+        },
+        {
+            "name": "Cache & Network Presets",
+            "section": true,
+            "url": "https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/presets/cache_presets.json",
+            "icon": "",
+            "fanart": "",
+            "description": "All presets related to caching, network, and buffering."
+        }
+    ]
+}

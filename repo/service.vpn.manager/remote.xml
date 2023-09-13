@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5883132d619ba3b95e659ddc676d1437c067bae84aa9df2b5cf8a210680421f9
-size 138
+<keymap><global><keyboard><key id="254">runscript(special://home/addons/service.vpn.manager/cycle.py)</key></keyboard></global></keymap>

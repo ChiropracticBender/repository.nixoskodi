@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41bcc568abc3aad610098571fa44bf81cc88dc64c978b0c585fe02deb483d69f
-size 225
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="musicvideos">
+    <name></name>
+    <match>all</match>
+    <group>artists</group>
+    <order direction="ascending">random</order>
+</smartplaylist>

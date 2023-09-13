@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e5da3138298d589545ae176e80fe422a801a7bb02729bf4d060ce1ce1f830638
-size 226
+<skin>
+	<defaultresolution>720p</defaultresolution>
+	<defaultresolutionwide>720p</defaultresolutionwide>
+	<defaultthemename>default</defaultthemename>
+	<effectslowdown>1</effectslowdown>
+	<version>1.0</version>
+</skin>

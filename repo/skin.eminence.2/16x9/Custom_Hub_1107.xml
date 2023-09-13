@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dda24f73867ea43a86b4b058a46a4f9fa1d59d43e271ad01b36a011efcc73a77
-size 430
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<window type="window" id="1107">
+    <backgroundcolor>Background</backgroundcolor>
+    <defaultcontrol always="true">9501</defaultcontrol>
+    <onunload>SetProperty(HubReturn,1107,home)</onunload>
+
+    <controls>
+        <include content="Window_Hub">
+            <param name="categories" value="skinshortcuts-group-x1107" />
+        </include>
+    </controls>
+</window>

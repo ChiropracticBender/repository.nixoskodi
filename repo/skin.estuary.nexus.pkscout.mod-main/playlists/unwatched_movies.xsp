@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a21056a63a989fd8f3de1368785c4c08e60972f81b66fd0bb22ed83c0824a3f9
-size 312
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+    <name>Unwatched movies</name>
+    <match>all</match>
+    <rule field="playcount" operator="is">
+        <value>0</value>
+    </rule>
+    <limit>15</limit>
+    <order direction="descending">random</order>
+</smartplaylist>

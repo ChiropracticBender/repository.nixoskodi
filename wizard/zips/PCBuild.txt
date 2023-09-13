@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:11973f5a846f91dfda0b47cb876d3adf73cd98a4cefd4abc0bbda4486ca8fec7
-size 1039
+name="TEST"
+extracted="90465886"
+zipsize="46464419"
+skin="Eminence"
+created="2023-09-12 12:52:30"
+programs="DigiWizard, IPTV Merge"
+video="TheMovieDb Helper, Disney+, Samsung TV Plus"
+music="none"
+picture="none"
+repos="NixOS HTPC Repo, SlyGuy Repository (slyguy.uk)"
+scripts="Default Controller, IBM Model M Keyboard, Computer Mouse, SNES Controller, Universal Album Scraper, Universal Artist Scraper, fanart.tv Scraper Library, The Movie Database Python, TMDb TV Shows, Weather Icons - White, Image Resource Select Addon, Addon Signals, certifi, chardet, python-dateutil, idna, requests, Simple Eval, six, SlyGuy Common, Unidecode, urllib3, OpenWeatherMap Maps, RSS Editor, Skin Shortcuts, Version Check, SlyGuy Dependencies, Multi Weather"
+binaries="none"

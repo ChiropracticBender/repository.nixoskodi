@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a1073860ba4342cc672d6c9a586c4c8e4ce917f4621e33fdee607ccde8f241fc
-size 310
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="albums">
+    <name>Unplayed albums</name>
+    <match>all</match>
+    <limit>15</limit>
+    <rule field="playcount" operator="is">
+        <value>0</value>
+    </rule>
+    <order direction="ascending">random</order>
+</smartplaylist>

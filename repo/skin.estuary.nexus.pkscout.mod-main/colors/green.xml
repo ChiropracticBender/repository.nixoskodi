@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf8f5baf9160aabd1e6ac997dc91b76d3428fec3df48062b6ec8d78b9a9777d6
-size 292
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<color name="primary_background">FF1C6E45</color>
+	<color name="secondary_background">3300A3CC</color>
+	<color name="dialog_tint">FF1F2722</color>
+	<color name="button_focus">FF24CA7A</color>
+	<color name="selected">FF14D519</color>
+</colors>

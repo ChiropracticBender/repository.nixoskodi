@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9122cea806c4560846410d9d65a7e632a8fcc76888644526f378ca0e7b9a620a
-size 481
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<include condition="Skin.HasSetting(touchmode)">TouchBackSlideshowButton</include>
+		<control type="image">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>256</width>
+			<height>256</height>
+			<texture>icons/settings/player.png</texture>
+			<visible>SlideShow.IsVideo</visible>
+			<visible>![Player.Playing + Player.HasVideo] | SlideShow.IsPaused</visible>
+		</control>
+	</controls>
+</window>

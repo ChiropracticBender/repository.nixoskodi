@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4dc5ac6efdff662b8e498a8cf641ae2243672f0eaf1e0f01dc7f89256a8db514
-size 694
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <backgroundcolor>Background</backgroundcolor>
+    <menucontrol>9000</menucontrol>
+    <defaultcontrol>50</defaultcontrol>
+    <views>50</views>
+    <controls>
+        <include>Furniture_Background</include>
+        <include>Furniture_RSS</include>
+        <include>Furniture_TopBar</include>
+
+        <control type="group">
+            <include>Defs_ViewBackground</include>
+            <include content="Object_Headline">
+                <param name="label" value="$VAR[Label_SortLine]" />
+            </include>
+            <include>PVR_SimpleList</include>
+        </control>
+
+        <include>PVR_Menu</include>
+    </controls>
+
+</window>

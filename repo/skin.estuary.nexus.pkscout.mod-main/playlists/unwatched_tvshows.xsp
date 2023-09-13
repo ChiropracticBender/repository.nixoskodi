@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:40602cc20a5b52c444c6630a05f2909d1f7249b24738def35da829fd818af538
-size 406
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="tvshows">
+    <name>Unwatched TV shows</name>
+    <match>all</match>
+    <rule field="numwatched" operator="is">
+        <value>0</value>
+    </rule>
+    <rule field="numepisodes" operator="greaterthan">
+        <value>0</value>
+    </rule>
+    <limit>15</limit>
+    <order direction="ascending">random</order>
+</smartplaylist>

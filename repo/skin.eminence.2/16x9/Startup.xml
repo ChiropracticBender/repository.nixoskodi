@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c15149a5c6d69101d72d14779178ba1dbe718585ebea2ddf375a5a0c19085a26
-size 488
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <!-- startup -->
+    <onload>Skin.Reset(HideSettings)</onload>
+    <onload>Skin.SetBool(TMDbHelper.Service)</onload>
+    <onload condition="String.IsEmpty(Skin.String(home.style))">Skin.SetString(home.style,$LOCALIZE[31180])</onload>
+    <onload>ReplaceWindow($INFO[System.StartupWindow])</onload>
+    <onload condition="!String.IsEmpty(Skin.String(StartupPlaylist))">PlayMedia($ESCINFO[Skin.String(StartupPlaylist)])</onload>
+</window>

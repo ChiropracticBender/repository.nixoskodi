@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96b62a54bce24e5be38714a9c016dde06b19f922a0fe567a9472e7ac36e683fb
-size 330
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="tvshows">
+    <name>Unwatched and in Progress TV shows</name>
+    <match>all</match>
+    <rule field="playcount" operator="is">
+        <value>0</value>
+    </rule>
+    <limit>15</limit>
+    <order direction="ascending">random</order>
+</smartplaylist>

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:691d9d15b4acb700ed2ef54d34212bedbf9de93fdb3672a72ff2e46eae4f5e98
-size 131
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <controls>
+        <include>Dialog_Progress</include>
+    </controls>
+</window>

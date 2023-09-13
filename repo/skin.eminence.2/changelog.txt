@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:480578e0580c420eeb4c0b4bec0bf526d5218f0de4e144ed7ec88b43e21604e3
-size 80
+4.0.0
+- Remove ExtendedInfo
+- Remove XBMC. prefix
+- Remove autocompletion plugin

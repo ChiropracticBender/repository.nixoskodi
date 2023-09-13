@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6e946cd929374c5be49ca10e2874f6b88df99b440a580658cfdd81a7d3197820
-size 470
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <backgroundcolor>Background</backgroundcolor>
+    <defaultcontrol>9000</defaultcontrol>
+    <controls>
+        <!-- Background -->
+        <include>Furniture_Background</include>
+        <include>Furniture_TopBar</include>
+        <include>Furniture_RSS</include>
+
+        <!-- Settings -->
+        <control type="group">
+            <include>Defs_SettingsScreen</include>
+        </control>
+    </controls>
+
+</window>

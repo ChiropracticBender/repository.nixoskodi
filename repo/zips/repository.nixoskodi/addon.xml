@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39da36191880bdf651dac9ffaf32a85a9f4679e278b6e2b5fa39de77ad75799d
-size 1248
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.nixoskodi" name="NixOS HTPC Repo" version="1.1.9" provider-name="ChiroBender">
+    <extension point="xbmc.addon.repository" name="NixOS HTPC Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/chiropracticbender/repository.nixoskodi/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/chiropracticbender/repository.nixoskodi/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/chiropracticbender/repository.nixoskodi/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>NixOS HTPC Project Repo</summary>
+        <description>This repo is for NixOS HTPC Project</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news> 
+        1.1.9
+        - Testing Updater        
+        1.1.8
+        - Moved to GitHub
+        1.1.7
+        - testing updater
+        1.1.6
+        - added news
+        </news>
+    </extension>
+</addon>

@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:759e2b24ee5fb32f6283f994e623aac2d04446e1be8d2c6586ceb7fdb53adfee
-size 323
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="musicvideos">
+    <name>Unwatched music videos</name>
+    <match>all</match>
+    <rule field="playcount" operator="is">
+        <value>0</value>
+    </rule>
+    <limit>15</limit>
+    <order direction="descending">random</order>
+</smartplaylist>
