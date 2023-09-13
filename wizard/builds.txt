@@ -13,6 +13,6 @@ icon="http://"
 fanart="http://"
 preview="https://"
 adult="no"
-info="http://"
+info="http://chriobender.github.io/nixoshtpc"
 description="Test Build"
 
