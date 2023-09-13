@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.digiwizard" name="[COLOR limegreen]Digi[/COLOR]Wizard" version="3.0.31" provider-name="ChiropracticBender">
+<addon id="plugin.program.digiwizard" name="[COLOR limegreen]Digi[/COLOR]Wizard" version="3.1.00" provider-name="ChiropracticBender">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -20,6 +20,9 @@
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <news>
+3.1.00
+- Auto install repository if missing
+- Starting OS updates for NixOS Testing
 3.0.31
 - Restart OS added to update wizard
 3.0.30

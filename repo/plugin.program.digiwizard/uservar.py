@@ -20,7 +20,7 @@ EXCLUDES = [ADDON_ID, 'repository.dcf']
 BUILDFILE = 'https://raw.githubusercontent.com/ChiropracticBender/repository.nixoskodi/master/wizard/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
-UPDATECHECK = 1
+UPDATECHECK = 0
 # Text File with apk info in it.  Leave as 'http://' to ignore
 APKFILE = 'http://'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
@@ -94,13 +94,13 @@ AUTOUPDATE = 'Yes'
 #        Auto Install Repo If Not Installed             #
 #########################################################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL = 'No'
+AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.openwizard'
+REPOID = 'repository.nixoskodi'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://'
+REPOADDONXML = 'https://raw.githubusercontent.com/chiropracticbender/repository.nixoskodi/main/repo/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://'
+REPOZIPURL = 'https://chiropracticbender.github.io/repository.nixoskodi/'
 #########################################################
 
 #########################################################
