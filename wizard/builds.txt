@@ -3,7 +3,7 @@ version="1.0.0"
 zip="https://github.com/ChiropracticBender/repository.nixoskodi/raw/main/wizard/zips/"
 
 name="PCBuild"
-version="1.10"
+version="1.11"
 url="https://github.com/ChiropracticBender/repository.nixoskodi/raw/main/wizard/zips/PCBuild.zip"
 minor="http://"
 gui="https://github.com/ChiropracticBender/repository.nixoskodi/raw/main/wizard/zips/PCBuild_guisettings.zip"
