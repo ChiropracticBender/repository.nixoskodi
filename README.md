@@ -1,4 +1,4 @@
-# repository.nixoskodi
+# repository.steamoskodi
 
 A Kodi plugin repository for steamos project. 
 
@@ -10,3 +10,4 @@ Project Scope
 - Easy installation
 - Samsung TV/Pluto TV
 - Create an appstore for steam OS through kodi
+
