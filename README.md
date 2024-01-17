@@ -14,4 +14,4 @@ Project Scope
 # How to install
 Wiki Documentation will be deployed when build system works on Steam Deck and ChemiraOS
 
-
+Testing VScode
